@@ -1,0 +1,855 @@
+
+span.line {
+  display: inline-block;
+  width: 31px;
+  height: 3px;
+  margin: 46px;
+  background-color: $title-color;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  position: relative;
+  box-sizing: border-box;
+  background: #fff;
+  height: 100vh;
+  min-height: 670px;
+  background: url('./assets/images/intro-bg.jpg') no-repeat center center;
+  background-size: cover;
+
+  .contents{
+    width: $body-width - 48;
+    margin: 0 auto;
+    color: #fff;
+    h3 {
+      line-height: 1;
+      font-size: 44px;
+    }
+
+    h1 {
+      line-height: 1.4;
+      font-size: 72px;
+    }
+
+    p {
+      line-height: 1;
+      padding-bottom: 40px;
+      font-size: 26px;
+    }
+
+    .js-contact {
+      width: 246px;
+      height: 62px;
+      border-radius: 31px;
+      font-size: 24px;
+      background: url('./assets/images/btn-bg.png') no-repeat center center;
+      background-size: 100%;
+    }
+  }
+}
+
+.company {
+  height: auto;
+  padding: 148px 0;
+  text-align: center;
+  background: #fff;
+
+  h2 {
+    font-size: 47px;
+    color: $title-color;
+  }
+
+  .ment {
+    font-size: 28px;
+    font-weight: 800;
+    color: $title-color;
+  }
+
+  .script {
+    padding-bottom: 108px;
+    font-size: 18px;
+  }
+
+  ul {
+    display: inline-block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    font-size: 0;
+    li {
+      display: inline-block;
+      width: 33.3333%;
+      min-width: 320px;
+      vertical-align: top;
+      img {
+        width: 267px;
+      }
+      h4 {
+        position: relative;
+        width: 100%;
+        padding-top: 70px;
+        font-size: 27px;
+        color: #000;
+        white-space: pre-line;
+      }
+    }
+  }
+}
+
+.product {
+  height: 100%;
+  min-height: 850px;
+  padding: 148px 0;
+  text-align: center;
+  color: #fff;
+  background: url('./assets/images/product-bg.jpg') no-repeat center center;
+  background-size: cover;
+
+  h2 {
+    font-size: 47px;
+    color: $title-color-light;
+  }
+
+  .line {
+    background-color: $title-color-light;
+  }
+
+  .script {
+    padding-bottom: 26px;
+  }
+
+  .cell {
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .video {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-top: 57%;
+
+    &-cell {
+      position: absolute;
+      left: 0; right: 0; top:0; bottom: 0;
+    }
+  }
+  h4 {
+    padding: 30px 0;
+    font-size: 21px;
+  }
+  p {
+    white-space: pre-line;
+    font-size: 18px;
+  }
+}
+
+
+.performance {
+  height: 100%;
+  min-height: 1250px;
+  padding: 148px 0;
+  text-align: center;
+
+  h2 {
+    font-size: 47px;
+    color: $title-color;
+  }
+
+  h3 {
+    padding: 46px 0 10px;
+    font-size: 28px;
+    color: $title-color;
+  }
+
+  .ment {
+    font-size: 28px;
+    font-weight: 800;
+    color: $title-color;
+  }
+
+  .script {
+    padding-bottom: 108px;
+    font-size: 18px;
+  }
+
+  .video {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-top: 57%;
+
+    &-cell {
+      position: absolute;
+      left: 0; right: 0; top:0; bottom: 0;
+    }
+  }
+
+  ul {
+    display: block;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 0;
+  }
+  $pd-gap: 8%;
+  li {
+    display: inline-block;
+    width: 50%;
+    padding-right: $pd-gap;
+    font-size: 12px;
+    &:last-child {
+      border-left: 1px solid #000;
+      padding-left: $pd-gap;
+      padding-right: 0;
+    }
+  }
+}
+
+
+.chart {
+  min-height: 850px;
+  padding: 190px 0 148px;
+  text-align: center;
+
+  h2 {
+    padding-bottom: 43px;
+    font-size: 39px;
+  }
+
+  h3 {
+    padding-bottom: 84px;
+    font-size: 32px;
+  }
+
+  .ment {
+    font-size: 28px;
+    font-weight: 800;
+  }
+
+  .chartBox {
+    padding-bottom: 40px;
+    width: 90%;
+    max-width: 634px;
+    margin: 0 auto;
+    img {
+      width: 100%;
+    }
+  }
+
+  .script {
+    font-style: italic;
+    font-weight: 700;
+    white-space: pre-line;
+    padding-bottom: 108px;
+    font-size: 28px;
+    color: #01a615;
+  }
+
+}
+
+.partner {
+  padding: 148px 0 70px;
+  text-align: center;
+  background: #eee;
+
+  h2 {
+    padding-bottom: 24px;
+    font-size: 49px;
+  }
+
+  .ment {
+    padding-bottom: 55px;
+    font-size: 28px;
+    font-weight: 700;
+  }
+
+  .script {
+    padding-bottom: 108px;
+    font-size: 18px;
+  }
+
+  ul {
+    display: inline-block;
+    li {
+      display: inline-block;
+      padding: 20px 48px;
+      vertical-align: middle;
+    }
+  }
+}
+
+.estimate {
+  position: relative;
+  box-sizing: border-box;
+  padding-top: 90px;
+  background: #fff;
+  height: 100%;
+  min-height: 670px;
+  background: url('./assets/images/estimate-bg.jpg') no-repeat center center;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+
+  .v-box {
+    top:30%;
+    left: 0; right: 0;
+    .contents{
+      width: $body-width - 48;
+      margin: 0 auto;
+      color: #fff;
+
+      h1 {
+        padding-bottom: 50px;
+        line-height: 1;
+        font-size: 61px;
+      }
+
+      .ment {
+        line-height: 1;
+        padding-bottom: 86px;
+        font-size: 37px;
+      }
+
+      .js-contact {
+        width: 342px;
+        height: 85px;
+        line-height: 85px;
+        border-radius: 45px;
+        font-size: 31px;
+        color: #fff;
+        background: url('./assets/images/btn-bg2.png') no-repeat center center;
+        background-size: 100%;
+      }
+    }
+  }
+}
+
+.certificate {
+  position: relative;
+  box-sizing: border-box;
+  padding: 148px 0;
+  text-align: center;
+  background: url('./assets/images/contact-bg.jpg') no-repeat center top #fff;
+  background-size: cover;
+
+  h1 {
+    padding-bottom: 90px;
+    font-size: 55px;
+    font-weight: 800;
+    letter-spacing: 5.5px;
+    text-align: center;
+    color: #3ab549;
+  }
+
+
+  ul {
+    display: block;
+    max-width: 1360px;
+    margin: 0 auto;
+  }
+  li {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    img {
+      width: 80%;
+      border: 1px solid #e4f1f1;
+    }
+    p {
+      padding: 20px 0 40px;
+      white-space: pre-line;
+      b {
+        line-height: 0;
+        display: block;
+      }
+    }
+
+    h5 {
+      padding: 20px 0 40px;
+      font-size: 22px;
+    }
+  }
+}
+
+.contact {
+  position: relative;
+  box-sizing: border-box;
+  padding: 148px 0;
+  text-align: center;
+  background: url('./assets/images/certificate-bg.jpg') no-repeat center center #fff;
+  background-size: cover;
+
+  h1 {
+    padding-bottom: 90px;
+    font-size: 55px;
+    font-weight: 800;
+    letter-spacing: 5.5px;
+    text-align: center;
+    color: #3ab549;
+  }
+
+  ol.contact-target {
+    display: inline-block;
+    margin: 0 auto;
+    color: #000000;
+    li {
+      display: block;
+      padding-bottom: 20px;
+      text-align: left;
+      font-size: 33px;
+    }
+  }
+
+  p {
+    padding: 40px 0 146px;
+    font-size: 33px;
+    font-weight: bold;
+  }
+
+  ul {
+    display: inline-block;
+    li {
+      padding-right: 108px;
+      display: inline-block;
+      vertical-align: top;
+      &:last-child {
+        padding: 0 0 0 108px;
+      }
+    }
+  }
+
+  h4 {
+    padding-bottom: 23px;
+    font-size: 33px;
+  }
+
+  .js-contact {
+    width: 342px;
+    height: 85px;
+    line-height: 85px;
+    border-radius: 45px;
+    font-size: 28px;
+    letter-spacing: -1px;
+    font-weight: 700;
+    color: #fff;
+    background: url('./assets/images/btn-bg2.png') no-repeat center center;
+    background-size: 100%;
+  }
+
+}
+
+
+@media screen and (max-width: $grid-breakpoint) {
+
+
+  span.line {
+    display: inline-block;
+    width: 31px;
+    height: 3px;
+    margin: 23px;
+    background-color: $title-color;
+  }
+
+  .intro {
+    height: auto;
+    min-height: auto;
+    width: 100%;
+    padding-top: $mb-header-height;
+    &-box {
+      position: relative;
+      height: auto;
+      padding: 120px 0;
+      .v-box {
+        position: relative;
+        .contents{
+          width: 90%;
+          max-width: 300px;
+          h3 { font-size: 24px; }
+          h1 { font-size: 36px; }
+
+          p {
+            white-space: pre-line;
+            line-height: normal;
+            padding-bottom: 20px;
+            font-size: 14px;
+          }
+
+          .js-contact {
+            width: 180px;
+            height: 40px;
+            border-radius: 20px;
+            font-size: 18px;
+            background: url('./assets/images/btn-bg.png') no-repeat center center;
+            background-size: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  .company {
+    height: auto;
+    padding: 120px 0;
+
+    h2 {
+      font-size: 23px;
+      color: $title-color;
+    }
+
+    .ment {
+      font-size: 14px;
+      font-weight: 800;
+      color: $title-color;
+    }
+
+    .script {
+      white-space: pre-line;
+      width: 90%;
+      margin: 0 auto;
+      padding-bottom: 54px;
+      font-size: 14px;
+    }
+
+    ul {
+      display: block;
+      margin: 0 auto;
+      width: 90%;
+      font-size: 0;
+      li {
+        display: block;
+        width: 100%;
+        min-width: auto;
+        img {
+          width: 50%;
+        }
+        h4 {
+          position: relative;
+          width: 100%;
+          padding: 10px 0 40px;
+          font-size: 14px;
+          color: #000;
+          white-space: pre-line;
+        }
+      }
+    }
+  }
+
+  .product {
+    height: auto;
+    min-height: initial;
+    padding: 120px 0;
+    text-align: center;
+    color: #fff;
+    background: url('./assets/images/product-bg.jpg') no-repeat center center;
+    background-size: cover;
+
+    h2 {
+      font-size: 23px;
+      color: $title-color-light;
+    }
+
+    .line {
+      background-color: $title-color-light;
+    }
+
+    .script {
+      width: 90%;
+      margin: 0 auto;
+      padding-bottom: 13px;
+    }
+
+    .cell {
+      width: 90%;
+      max-width: none;
+      margin: 0 auto;
+    }
+
+    .video {
+      position: relative;
+      width: 100%;
+      height: 0;
+      padding-top: 57%;
+
+      &-cell {
+        position: absolute;
+        left: 0; right: 0; top:0; bottom: 0;
+      }
+    }
+    h4 {
+      padding: 15px 0;
+      font-size: 18px;
+    }
+    p {
+      line-height: 1.5;
+      font-size: 15px;
+    }
+  }
+
+
+  .performance {
+    height: auto;
+    min-height: initial;
+    padding: 120px 0 20px;
+
+    h2 {
+      font-size: 23px;
+    }
+
+    .ment {
+      font-size: 14px;
+    }
+
+    .script {
+      width: 80%;
+      margin: 0 auto;
+      padding-bottom: 0;
+      font-size: 14px;
+    }
+
+    .video {
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    ul {
+      display: block;
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      font-size: 0;
+    }
+    li {
+      h3 {
+        padding-bottom: 0;
+        font-size: 18px;
+      }
+      display: block;
+      width: 100%;
+      padding: 24px;
+      font-size: 12px;
+      &:last-child {
+        border-left: 0;
+        padding: 24px;
+      }
+    }
+  }
+
+
+  .chart {
+    min-height: initial;
+    padding: 10px 0 120px;
+    text-align: center;
+
+    h2 {
+      padding-bottom: 0;
+      font-size: 18px;
+    }
+
+    h3 {
+      padding-bottom: 10px;
+      font-size: 14px;
+    }
+
+    .ment {
+      font-size: 14px;
+    }
+
+    .chartBox {
+      padding-bottom: 40px;
+      width: 90%;
+      max-width: 634px;
+      margin: 0 auto;
+      img {
+        width: 100%;
+      }
+    }
+
+    .script {
+      padding-bottom: 0;
+      font-size: 14px;
+    }
+
+  }
+
+  .partner {
+    padding: 120px 0 30px;
+    text-align: center;
+    background: #eee;
+
+    h2 {
+      padding-bottom: 10px;
+      font-size: 23px;
+    }
+
+    .ment {
+      font-size: 14px;
+    }
+
+    ul {
+      display: block;
+      width: 100%;
+      font-size: 0;
+      li {
+        display: inline-block;
+        width: 25%;
+        padding: 0;
+        vertical-align: middle;
+        img {
+          width: 80%;
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+
+  .estimate {
+    position: relative;
+    box-sizing: border-box;
+    padding: 120px 0;
+    height: auto;
+    min-height: initial;
+    background: url('./assets/images/estimate-bg.jpg') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+
+    .v-box {
+      position: relative;
+      top:0; left: 0; right: 0;
+      .contents{
+        width: 100%;
+
+        h1 {
+          padding: 50px 0 20px;
+          font-size: 30px;
+        }
+
+        .ment {
+          line-height: 1;
+          padding-bottom: 43px;
+          font-size: 18px;
+        }
+
+        .js-contact {
+          width: 50%;
+          max-width: 342px;
+          height: 60px;
+          line-height: 60px;
+          border-radius: 45px;
+          font-size: 16px;
+          background: url('./assets/images/btn-bg2.png') no-repeat center center;
+          background-size: 100%;
+        }
+      }
+    }
+  }
+
+  .certificate {
+    padding: 60px 0;
+
+    h1 {
+      padding: 40px 20px;
+      line-height: 1;
+      font-size: 24px;
+      letter-spacing: 0;
+    }
+
+
+    ul {
+      width: auto;
+      font-size: 0;
+    }
+    li {
+      display: inline-block;
+      width: 50%;
+      vertical-align: top;
+      img {
+        width: 80%;
+        border: 1px solid #e4f1f1;
+      }
+      p {
+        padding: 20px 0 40px;
+        white-space: pre-line;
+        font-size: 12px;
+        b {
+          line-height: 0;
+          display: block;
+        }
+      }
+
+      h5 {
+        font-size: 16px;
+      }
+    }
+  }
+
+  .contact {
+    position: relative;
+    box-sizing: border-box;
+    padding: 120px 0;
+    text-align: center;
+    background: url('./assets/images/contact-bg.jpg') no-repeat center center #fff;
+    background-size: cover;
+
+    h1 {
+      padding: 40px 20px;
+      line-height: 1;
+      font-size: 24px;
+      letter-spacing: 0;
+    }
+
+    ol.contact-target {
+      display: inline-block;
+      margin: 0 auto;
+      color: #000000;
+      li {
+        display: block;
+        padding-bottom: 10px;
+        text-align: left;
+        font-size: 16px;
+      }
+    }
+
+    p {
+      padding: 20px 0 40px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    ul {
+      display: block;
+      width: 90%;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 0;
+
+      li {
+        padding: 0 0 40px;
+        width: 50%;
+        vertical-align: top;
+        &:last-child {
+          padding: 0;
+        }
+      }
+    }
+
+    h4 {
+      padding-bottom: 0;
+      font-size: 18px;
+    }
+
+    .js-contact {
+      width: 95%;
+      max-width: 342px;
+      height: 44px;
+      line-height: 44px;
+      border-radius: 45px;
+      font-size: 13px;
+    }
+
+  }
+
+}

@@ -1,0 +1,54 @@
+$body-width: 1200px;
+$mb-header-height: 50px;
+
+//== screen breakpoint
+$grid-breakpoint: 768px;
+$grid-breakpoint-md: 920px;
+
+//== z-index
+$header-index: 4;
+
+//== Typography
+//
+//** size : bootstrap font size
+$font-size-base:          14px !default;
+$font-size-base-mb:       13px !default;
+
+$font-size-h1:            floor(($font-size-base * 2.6)) !default; // ~36px
+$font-size-h2:            floor(($font-size-base * 2.15)) !default; // ~30px
+$font-size-h3:            ceil(($font-size-base * 1.7)) !default; // ~24px
+$font-size-h3-small: 20px;
+$font-size-h4:            ceil(($font-size-base * 1.25)) !default; // ~18px
+$font-size-h4-small: 16px;
+$font-size-h5:            $font-size-base !default;
+$font-size-h6:            ceil(($font-size-base * 0.85)) !default; // ~12px
+
+$font-light: 300;
+$font-normal: 300;
+$font-bold: 400;
+$font-exbold: 700;
+
+//** color
+$base-font-color: #fff;
+$base-bg: #170f17;
+$red: #e42862;
+$pink: #d698ca;
+$indigo: #3456a2;
+$purple: #6035bd;
+$blue: #00abe3;
+$sky: #5AD0FA;
+$yellow: #ffc400;
+$green: #85d52c;
+
+$title-color: #3ab549;
+$title-color-light: #aef052;
+
+$gray-darken: #4d4d4d;
+$gray-dark: #999;
+$gray: #ccc;
+$gray-light: #e6e6e6;
+$gray-lighter: #f7f7f7;
+
+$transition-speed: .3s;
+
+
